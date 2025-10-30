@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
- #
+
  # pull_request:
  #   types: [opened, synchronize, reopened, closed]
  #   branches:
@@ -45,5 +45,6 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GREEN_MOSS_0A5D3EC0F }}
           action: "close"
+
 
 
